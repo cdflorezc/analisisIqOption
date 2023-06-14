@@ -81,7 +81,7 @@ def obtener_divisas_activas(API):
     return active_currencies
 
 def estrategia_rsi_macd(timeframe, amount, rsi_threshold=30, max_trades=5):
-    API = IQ_Option('vpsdigital391@gmail.com', 'Cdfc1998/')
+    API = IQ_Option('correo@gmail.com', 'Clave')
     API.connect()
 
     if not validar_conexion(API):

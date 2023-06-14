@@ -83,7 +83,7 @@ def cerrar_operaciones(API):
             API.close_position(position['id'])
 
 def estrategia_rsi_macd(symbols, timeframe, amount, rsi_threshold=30, max_trades=5):
-    API = IQ_Option('vpsdigital391@gmail.com', 'Cdfc1998/')
+    API = IQ_Option('corre', 'clave')
     API.connect()
 
     if not validar_conexion(API):
